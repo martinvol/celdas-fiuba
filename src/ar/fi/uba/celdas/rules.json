@@ -1,0 +1,22 @@
+{
+    "movements": [
+        [8,1],
+        [8,2],
+        [9,2],
+        [10,3],
+        [10,2],
+        [7,2],
+        [7,6],
+        [10,6],
+        [10,5]
+    ],
+
+    "rules": {
+        "bug_in_font": "use",
+        "bug_right": "left",
+        "bug_left": "right",
+        "bug_up": "down",
+        "bug_down": "up",
+    
+    }
+}
