@@ -22,6 +22,17 @@ public class Agent extends AbstractPlayer{
 	Boolean got_to_intermediary_point =false;
 	JsonGetter rules;
 	ArrayList<InputAction> rules_movement;
+	
+    Action action_used;
+    
+    Rule current_rule;
+    
+    String lastTimePerception;
+    
+    static int times_played=0;
+    
+    RuleDumper ruleDumper;
+    
 	/**
 	 * initialize all variables for the agent
 	 * @param stateObs Observation of the current state.
@@ -34,6 +45,9 @@ public class Agent extends AbstractPlayer{
 		this.rules = new JsonGetter();
 		rules_movement = this.rules.read_rules();
 		this.target = rules.get_next_target(); 
+		times_played += 1;
+		
+		this.ruleDumper = new RuleDumper();
 	}
 	
 	/**
@@ -93,7 +107,7 @@ public class Agent extends AbstractPlayer{
 		return 'h';
 	}
 	
-	private void generateOrGetRule(Perception perception, PathFinder pathfinder, StateObservation stateObs) {
+	private Action generateOrGetRule(Perception perception, PathFinder pathfinder, StateObservation stateObs) {
 		ArrayList<Node> path = pathfinder.getPath(this.player, this.target);
 	    
 	    for (int i=0; i < path.size(); i++) {
@@ -120,17 +134,43 @@ public class Agent extends AbstractPlayer{
 	    
 	    String currentStatus = position_1 + position_2 + position_3 + position_4 + position_6 + position_7 + position_8 + position_9 + next_path + pjOrientation ;
 	    
-	    Boolean training = true;
-	    if (training) {
-	    	//return Rule.getRule().getRandomAction();
-	    	// Rule.getRule().getRandomAction();
-	    	Rule.getRule();
-	    	// somewhere else I should do Rule.storeActionResult(currentStatus, action, result) 
+	    System.out.println("Current perception: " + currentStatus);
+	    
+	    Boolean training = !((times_played%2) == 0);
+	    
+	    
+	    if (current_rule == null) {
+	    	System.out.println("First play, can't analyse a rule");
+	    } else {
+	    	action_used.ok += 1;
+	    	if (lastTimePerception.equals(currentStatus.substring(0,8))) {
+	    		System.out.println("Action is repeating");
+	    		action_used.is_repeating +=1;
+	    	}
 	    }
 	    
-	    // return Rules.getBestAction()
+	    lastTimePerception = currentStatus.substring(0,8);
 	    
-	    System.out.println(currentStatus);
+	    current_rule = Rule.getRule(currentStatus);
+	    if (training) {
+	    	System.out.println("training!");
+	    	action_used = current_rule.getRandomAction();
+	    	// somewhere else I should do Rule.storeActionResult(currentStatus, action, result) 
+	    } else {
+	    	System.out.println("not training!");
+	    	action_used = current_rule.getBestAction(next_path);
+	    }
+	    
+	    action_used.tried += 1;
+	    
+		if (action_used.name.equals(next_path)) {
+			System.out.println("Moved in the right direction! " + next_path);
+			action_used.got_closer_to_the_target += 1; 
+		}
+
+		System.out.println("Action used: " + action_used.name);
+	
+	    return action_used;
 	}
 	
 	private void findTargets(Perception perception, StateObservation stateObs) {
@@ -163,6 +203,24 @@ public class Agent extends AbstractPlayer{
 	}
 	
 	
+	private ACTIONS get_actions_from_rule_action(String rule_action){
+		switch (rule_action) {
+        case "a":  
+        	return ACTIONS.ACTION_USE;
+        case "l":  
+        	return ACTIONS.ACTION_LEFT;
+        case "r":  
+        	return ACTIONS.ACTION_RIGHT;
+        case "d":  
+        	return ACTIONS.ACTION_DOWN;
+        case "u":  
+        	return ACTIONS.ACTION_UP;
+        default: 
+                 return ACTIONS.ACTION_NIL;
+    }
+		
+	}
+	
 	@Override
 	public ACTIONS act(StateObservation stateObs, ElapsedCpuTimer elapsedTimer) {
 		
@@ -179,52 +237,56 @@ public class Agent extends AbstractPlayer{
 	    	target = rules.get_next_target();
 	    }
 	        
-	    generateOrGetRule(perception, pathfinder, stateObs);
-
-	    for (InputAction temp : rules_movement) {
-			//System.out.println(temp.action);
-			String rule_name = temp.rule;
-			switch(rule_name) {
-			    case "bug_in_font":
-			    	// ataque
-					
-					if (perception.getLevel()[(int)(player.y+stateObs.getAvatarOrientation().y)][(int)(player.x + stateObs.getAvatarOrientation().x)] == '2'){
-						return get_actions_from_rule_action(temp.action);
-			 		}
-			        break;
-			    //defensa
-			    case "bug_right":
-			    	//derecha
-					if (perception.getLevel()[(int)player.y][(int)player.x+1] == '2'){
-						return get_actions_from_rule_action(temp.action);
-					}
-			        break;
-			    case "bug_left":
-			    	//izquierda
-					if (perception.getLevel()[(int)player.y-1][(int)player.x-1] == '2'){
-						return get_actions_from_rule_action(temp.action);
-					}
-			        break;
-			    case "bug_up":
-			    	//arriba
-					if (perception.getLevel()[(int)player.y-1][(int)player.x] == '2'){
-						return get_actions_from_rule_action(temp.action);
-					}
-			        break;
-			    case "bug_down":
-			    	//abajo
-					if (perception.getLevel()[(int)player.y+1][(int)player.x] == '2'){
-						return get_actions_from_rule_action(temp.action);
-					}
-			        break;
-			    default:
-			        //code block
-			}
-		}
+	    Action to_use_action = generateOrGetRule(perception, pathfinder, stateObs);
+	    
+	    ACTIONS out = get_actions_from_rule_action(to_use_action.name);
+	    this.ruleDumper.saveRules(Rule.index);
+	    return out; 
+	    
+//	    for (InputAction temp : rules_movement) {
+//			//System.out.println(temp.action);
+//			String rule_name = temp.rule;
+//			switch(rule_name) {
+//			    case "bug_in_font":
+//			    	// ataque
+//					
+//					if (perception.getLevel()[(int)(player.y+stateObs.getAvatarOrientation().y)][(int)(player.x + stateObs.getAvatarOrientation().x)] == '2'){
+//						return get_actions_from_rule_action(temp.action);
+//			 		}
+//			        break;
+//			    //defensa
+//			    case "bug_right":
+//			    	//derecha
+//					if (perception.getLevel()[(int)player.y][(int)player.x+1] == '2'){
+//						return get_actions_from_rule_action(temp.action);
+//					}
+//			        break;
+//			    case "bug_left":
+//			    	//izquierda
+//					if (perception.getLevel()[(int)player.y-1][(int)player.x-1] == '2'){
+//						return get_actions_from_rule_action(temp.action);
+//					}
+//			        break;
+//			    case "bug_up":
+//			    	//arriba
+//					if (perception.getLevel()[(int)player.y-1][(int)player.x] == '2'){
+//						return get_actions_from_rule_action(temp.action);
+//					}
+//			        break;
+//			    case "bug_down":
+//			    	//abajo
+//					if (perception.getLevel()[(int)player.y+1][(int)player.x] == '2'){
+//						return get_actions_from_rule_action(temp.action);
+//					}
+//			        break;
+//			    default:
+//			        //code block
+//			}
+//		}
 	    
 		
 		// moverse, si no te moviste todavía 
-		return this.ir(target, perception, stateObs);
+		// return this.ir(target, perception, stateObs);
 		// lave
 	}
 	
