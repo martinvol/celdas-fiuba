@@ -9,6 +9,8 @@ import ontology.Types;
 import ontology.Types.ACTIONS;
 import tools.ElapsedCpuTimer;
 import tools.Vector2d;
+import tools.pathfinder.Node;
+import tools.pathfinder.PathFinder;
 
 public class Agent extends AbstractPlayer{
 
@@ -41,42 +43,104 @@ public class Agent extends AbstractPlayer{
 	 * @return 	ACTION_NIL all the time
 	 */
 	
-	private ACTIONS get_actions_from_rule_action(String rule_action){
-		switch (rule_action) {
-        case "use":  
-        	return ACTIONS.ACTION_USE;
-        case "left":  
-        	return ACTIONS.ACTION_LEFT;
-        case "right":  
-        	return ACTIONS.ACTION_RIGHT;
-        case "down":  
-        	return ACTIONS.ACTION_DOWN;
-        case "up":  
-        	return ACTIONS.ACTION_UP;
-        default: 
-                 return ACTIONS.ACTION_NIL;
-    }
+	
+	private String getPerceptionFor(int x, int y, Perception perception) {
+		int max_y = perception.getLevel().length;
+		int max_x = perception.getLevel()[0].length;
+		if (x < 0 || y < 0 || y > max_y || y > max_x) {
+			System.out.println("Analisis fuera de límite");
+			return "w";
+		}
+		
+		return String.valueOf(perception.getLevel()[y][x]);
 		
 	}
-	@Override
-	public ACTIONS act(StateObservation stateObs, ElapsedCpuTimer elapsedTimer) {
-		
-		Perception perception = new Perception(stateObs);
-	    System.out.println(perception);
-	    
+	
+	private char getOrientation(Vector2d toCompare) {
+//		int payer_x = (int) this.player.x; int payer_y = (int) this.player.y;
+//		int co
 
-	    player = new Vector2d();
+		if (player.x + 1 == toCompare.x) {
+			return 'r';
+		}
+		if (player.x - 1 == toCompare.x) {
+			return 'l';
+		}
+		if (player.y - 1 == toCompare.y) {
+			return 'u';
+		}
+		if (player.y + 1 == toCompare.y) {
+			return 'd';
+		}
+		System.out.println("Error en el getOrientation");
+		return 'h';
+	}
+	
+	private char getOrientationAvatar(Vector2d toCompare) {
+		if (+1 == (int) toCompare.x) {
+			return 'r';
+		}
+		if (-1 == (int) toCompare.x) {
+			return 'l';
+		}
+		if (-1 == (int) toCompare.y) {
+			return 'u';
+		}
+		if (+1 == (int) toCompare.y) {
+			return 'd';
+		}
+		System.out.println("Error en el getOrientationAvatar");
+		return 'h';
+	}
+	
+	private void generateOrGetRule(Perception perception, PathFinder pathfinder, StateObservation stateObs) {
+		ArrayList<Node> path = pathfinder.getPath(this.player, this.target);
+	    
+	    for (int i=0; i < path.size(); i++) {
+	    	Node node = path.get(i);
+	    	System.out.print(node.position);
+	    	System.out.print("=>");
+	    }
+	    System.out.println("");
+	    
+	    int x = (int) player.x;
+	    int y = (int) player.y;
+	    
+	    String position_1 = getPerceptionFor(x-1, y-1, perception);
+	    String position_2 = getPerceptionFor(x, y-1, perception);
+	    String position_3 = getPerceptionFor(x+1, y-1, perception);
+	    String position_4 = getPerceptionFor(x-1, y, perception);
+	    String position_6 = getPerceptionFor(x+1, y, perception);
+	    String position_7 = getPerceptionFor(x-1, y+1, perception);
+	    String position_8 = getPerceptionFor(x, y+1, perception);
+	    String position_9 = getPerceptionFor(x+1, y+1, perception);
+	    String next_path= String.valueOf(getOrientation(path.get(0).position));
+	    
+	    String pjOrientation = String.valueOf(getOrientationAvatar(stateObs.getAvatarOrientation()));
+	    
+	    String currentStatus = position_1 + position_2 + position_3 + position_4 + position_6 + position_7 + position_8 + position_9 + next_path + pjOrientation ;
+	    
+	    Boolean training = true;
+	    if (training) {
+	    	//return Rule.getRule().getRandomAction();
+	    	// Rule.getRule().getRandomAction();
+	    	Rule.getRule();
+	    	// somewhere else I should do Rule.storeActionResult(currentStatus, action, result) 
+	    }
+	    
+	    // return Rules.getBestAction()
+	    
+	    System.out.println(currentStatus);
+	}
+	
+	private void findTargets(Perception perception, StateObservation stateObs) {
+		player = new Vector2d();
 	    salida = new Vector2d();
 	    
 	    for(int x=0;x< stateObs.getObservationGrid().length; x++){
         	for(int y=0;y< stateObs.getObservationGrid()[0].length; y++){
         		// donde está el player
         		if (perception.getLevel()[y][x] == 'A' | perception.getLevel()[y][x] == '?'){
-        			/*System.out.print("player está en: x: ");
-        			System.out.print(x);
-        			System.out.print(" y:");
-        			System.out.print(y);
-        			System.out.println("");*/
         			player.x =x;
         			player.y=y;
         			        			
@@ -95,15 +159,30 @@ public class Agent extends AbstractPlayer{
         		
         	}
         }
+	    System.out.print("Player está en: ");System.out.println(player);
+	}
+	
+	
+	@Override
+	public ACTIONS act(StateObservation stateObs, ElapsedCpuTimer elapsedTimer) {
+		
+		PathFinder pathfinder = new PathFinder(new ArrayList<Integer>()); 
+		pathfinder.run(stateObs);
+				
+		Perception perception = new Perception(stateObs);
+	    System.out.println(perception);
 	    
+
+	    this.findTargets(perception, stateObs);
 	    
 	    if (player.x == target.x && player.y == target.y){
 	    	target = rules.get_next_target();
 	    }
 	        
-	    
+	    generateOrGetRule(perception, pathfinder, stateObs);
+
 	    for (InputAction temp : rules_movement) {
-			System.out.println(temp.action);
+			//System.out.println(temp.action);
 			String rule_name = temp.rule;
 			switch(rule_name) {
 			    case "bug_in_font":
