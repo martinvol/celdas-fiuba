@@ -110,6 +110,8 @@ public class Agent extends AbstractPlayer{
 	private Action generateOrGetRule(Perception perception, PathFinder pathfinder, StateObservation stateObs) {
 		ArrayList<Node> path = pathfinder.getPath(this.player, this.target);
 	    
+		System.out.println("Target is in : " + String.valueOf(this.target.x) + ", " + String.valueOf(this.target.y));
+		
 	    for (int i=0; i < path.size(); i++) {
 	    	Node node = path.get(i);
 	    	System.out.print(node.position);
@@ -136,7 +138,8 @@ public class Agent extends AbstractPlayer{
 	    
 	    System.out.println("Current perception: " + currentStatus);
 	    
-	    Boolean training = !((times_played%2) == 0);
+	    //Boolean training = !((times_played%2) == 0);
+	    Boolean training = false;
 	    
 	    
 	    if (current_rule == null) {
@@ -187,6 +190,8 @@ public class Agent extends AbstractPlayer{
         		}
         		
         		if (perception.getLevel()[y][x] == '+'){
+        		    System.out.print("Encontré llave: ");System.out.print(x);System.out.print(" ");System.out.println(y);
+	
         			llave.x = x;
         			llave.y = y;
         		}

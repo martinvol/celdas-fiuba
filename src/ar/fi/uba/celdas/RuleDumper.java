@@ -9,6 +9,13 @@ import org.json.JSONObject;
 
 public class RuleDumper {
 
+	public Hashtable<String, Rule> loadRules(){
+		Hashtable<String, Rule> rules = new Hashtable<String, Rule>();
+		
+		return rules;
+	}
+	
+	
 	public void saveRules(Hashtable<String, Rule> ruleIndex) {
 		// rule to actionDump
 		// Hashtable<String, Hashtable<String, Integer>> dump = new Hashtable<String, Hashtable<String, Integer>>();  
