@@ -107,7 +107,9 @@ public class PathFinder {
         if(col<0 || col>=grid[row].length) return true;
 
         for(Observation obs : grid[row][col])
+        	
         {
+        	//System.out.println("ObstType: " + row + " " + " " + col + ": " + obs.itype);
             if(obstacleItypes.contains(obs.itype))
                 return true;
         }

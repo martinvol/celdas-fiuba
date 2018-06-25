@@ -1,5 +1,7 @@
 import java.util.Random;
 
+import ar.fi.uba.celdas.Rule;
+import ar.fi.uba.celdas.RuleDumper;
 import core.ArcadeMachine;
 
 /**
@@ -27,10 +29,14 @@ public class TestCeldas
         int seed = new Random().nextInt();
 
         //Zelda Game and level to play      
-        int levelIdx = 1; //level names from 0 to 4 (game_lvlN.txt).
+        int levelIdx = 0; //level names from 0 to 4 (game_lvlN.txt).
         String game = gamesPath +"zelda.txt";
         String level1 = gamesPath + "zelda_lvl" + levelIdx +".txt";
 
+        
+        RuleDumper.loadRules();
+        
+        //System.exit(0);
         //String recordLevelFile = generateLevelPath + "zelda_glvl.txt";
         String recordActionsFile = null;//"actions_" + games[gameIdx] + "_lvl" + levelIdx + "_" + seed + ".txt"; //where to record the actions executed. null if not to save.
 
@@ -40,6 +46,8 @@ public class TestCeldas
         // 2. This plays a game in a level by the controller.
         for(int i=0; i<1000; i++) {
         	ArcadeMachine.runOneGame(game, level1, visuals, celdasAgent, recordActionsFile, seed, 0);
+        	RuleDumper.saveRules(Rule.index);
+        	//System.exit(0);
         }
         // 3. This replays a game from an action file previously recorded
         //String readActionsFile = recordActionsFile;

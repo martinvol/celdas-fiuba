@@ -23,6 +23,8 @@ public class Agent extends AbstractPlayer{
 	JsonGetter rules;
 	ArrayList<InputAction> rules_movement;
 	
+	int amountBugs, amountBugsBefore;
+	
     Action action_used;
     
     Rule current_rule;
@@ -44,7 +46,7 @@ public class Agent extends AbstractPlayer{
 	public Agent(StateObservation stateObs, ElapsedCpuTimer elapsedTimer){
 		this.rules = new JsonGetter();
 		rules_movement = this.rules.read_rules();
-		this.target = rules.get_next_target(); 
+		//this.target = rules.get_next_target(); 
 		times_played += 1;
 		
 		this.ruleDumper = new RuleDumper();
@@ -138,21 +140,28 @@ public class Agent extends AbstractPlayer{
 	    
 	    System.out.println("Current perception: " + currentStatus);
 	    
-	    //Boolean training = !((times_played%2) == 0);
-	    Boolean training = false;
+	    Boolean training = !((times_played%2) == 0);
+	    //Boolean training = false;
 	    
 	    
 	    if (current_rule == null) {
 	    	System.out.println("First play, can't analyse a rule");
+	    	this.amountBugsBefore = this.amountBugs;
 	    } else {
 	    	action_used.ok += 1;
-	    	if (lastTimePerception.equals(currentStatus.substring(0,8))) {
+	    	System.out.println("last rule ok: " + action_used.ok);
+	    	if (lastTimePerception.equals(currentStatus)) {
 	    		System.out.println("Action is repeating");
 	    		action_used.is_repeating +=1;
+	    		
+	    	}
+	    	if (this.amountBugsBefore < this.amountBugs) {
+	    		action_used.number_of_enemies +=1;
 	    	}
 	    }
 	    
-	    lastTimePerception = currentStatus.substring(0,8);
+	    this.amountBugsBefore = this.amountBugs;
+	    lastTimePerception = currentStatus;
 	    
 	    current_rule = Rule.getRule(currentStatus);
 	    if (training) {
@@ -179,10 +188,16 @@ public class Agent extends AbstractPlayer{
 	private void findTargets(Perception perception, StateObservation stateObs) {
 		player = new Vector2d();
 	    salida = new Vector2d();
+	    this.amountBugs = 0;
 	    
 	    for(int x=0;x< stateObs.getObservationGrid().length; x++){
         	for(int y=0;y< stateObs.getObservationGrid()[0].length; y++){
         		// donde está el player
+        		
+        		if (perception.getLevel()[y][x] == '2'){
+        			this.amountBugs += 1;
+        		}
+        		
         		if (perception.getLevel()[y][x] == 'A' | perception.getLevel()[y][x] == '?'){
         			player.x =x;
         			player.y=y;
@@ -204,6 +219,7 @@ public class Agent extends AbstractPlayer{
         		
         	}
         }
+	    System.out.println("Hay en " + this.amountBugs + " bichos");
 	    System.out.print("Player está en: ");System.out.println(player);
 	}
 	
@@ -228,8 +244,10 @@ public class Agent extends AbstractPlayer{
 	
 	@Override
 	public ACTIONS act(StateObservation stateObs, ElapsedCpuTimer elapsedTimer) {
+		ArrayList<Integer> obstacleList = new ArrayList<Integer>();
+		obstacleList.add(0);
 		
-		PathFinder pathfinder = new PathFinder(new ArrayList<Integer>()); 
+		PathFinder pathfinder = new PathFinder(obstacleList); 
 		pathfinder.run(stateObs);
 				
 		Perception perception = new Perception(stateObs);
@@ -239,13 +257,13 @@ public class Agent extends AbstractPlayer{
 	    this.findTargets(perception, stateObs);
 	    
 	    if (player.x == target.x && player.y == target.y){
-	    	target = rules.get_next_target();
+	    	target = salida;
 	    }
 	        
 	    Action to_use_action = generateOrGetRule(perception, pathfinder, stateObs);
 	    
 	    ACTIONS out = get_actions_from_rule_action(to_use_action.name);
-	    this.ruleDumper.saveRules(Rule.index);
+	    //this.ruleDumper.saveRules(Rule.index);
 	    return out; 
 	    
 //	    for (InputAction temp : rules_movement) {

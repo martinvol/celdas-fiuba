@@ -9,7 +9,7 @@ public class Action {
 
 	String action_taken; 
 	
-	int tried  = 1; 
+	int tried  = 1; // starts in one to avoid divided by zero 
 	int ok = 0;
 	int got_closer_to_the_target  = 0; 
 	int number_of_enemies = 0; //times killed is implicit
@@ -27,6 +27,8 @@ public class Action {
 		
 		float survive_rate = ((float) ok)/floatTried;
 		float closerIndex = ((float) got_closer_to_the_target)/floatTried;
+		float is_repeating_index = ((float) is_repeating)/floatTried;
+		float number_of_enemies_index = ((float) number_of_enemies)/floatTried;
 		int dies = tried - ok;
 		
 		int will_get_closer = 0; 
@@ -35,7 +37,7 @@ public class Action {
 			will_get_closer = 1000;
 		} 
 		
-		return survive_rate + (10*closerIndex) + (10*will_get_closer) - (dies*10000);
+		return survive_rate + (10*closerIndex) + (1*will_get_closer) - (dies*10000) + (number_of_enemies_index*100);
 	}
 	
 	public JSONObject getJsonRpr(){
@@ -43,10 +45,12 @@ public class Action {
 		JSONObject json = new JSONObject();
 		
 		try {
-			json.put("name", this.name);
+			//json.put("name", this.name);
 			json.put("tried", this.tried);
 			json.put("ok", this.ok);
 			json.put("got_closer_to_the_target", this.got_closer_to_the_target);
+			json.put("number_of_enemies", this.number_of_enemies);
+			json.put("is_repeating", this.is_repeating);
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

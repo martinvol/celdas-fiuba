@@ -1,0 +1,2320 @@
+{
+    "wwwX.w..rl": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "p",
+            "ok": 2
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "d",
+            "ok": 1
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "l",
+            "ok": 2
+        }
+    },
+    "wwww.wX.rl": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "p",
+            "ok": 2
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wXw....wrd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "wwww.w..rl": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "a",
+            "ok": 2
+        },
+        "r": {
+            "got_closer_to_the_target": 3,
+            "tried": 4,
+            "name": "r",
+            "ok": 3
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "d",
+            "ok": 3
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 5,
+            "name": "l",
+            "ok": 4
+        }
+    },
+    "www....Xrd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wwww.wX.rd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wwwX.w..ru": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "l",
+            "ok": 2
+        }
+    },
+    "wXw....wrl": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "d",
+            "ok": 1
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wwww.w..ru": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 5,
+            "name": "p",
+            "ok": 4
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "d",
+            "ok": 3
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "u",
+            "ok": 3
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "wwwX.w..rr": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wwww.w..rr": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "a",
+            "ok": 2
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "d",
+            "ok": 1
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "l",
+            "ok": 2
+        }
+    },
+    "....w.X.ul": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "www....wru": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "p",
+            "ok": 3
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "a",
+            "ok": 2
+        },
+        "r": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "d",
+            "ok": 3
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "l",
+            "ok": 2
+        }
+    },
+    "....w.X.uu": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    ".X..w...uu": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "www....wrr": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 5,
+            "name": "d",
+            "ok": 4
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "....w.X.ur": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "wwwwXw..rd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "d",
+            "ok": 1
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "www...X.rr": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "w.Xw.w..uu": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "www...Xwrd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "....X...ur": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 5,
+            "name": "l",
+            "ok": 4
+        }
+    },
+    "www...w.ru": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "d",
+            "ok": 1
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "www...X.rl": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "w.Xw.w..ul": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "....X...uu": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wwwwXw..rr": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "a",
+            "ok": 2
+        },
+        "r": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "d",
+            "ok": 1
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "www...w.rl": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "wXw....wrr": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "w.Xw.w..ud": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "w..w.w..ud": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "p",
+            "ok": 3
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 5,
+            "name": "r",
+            "ok": 4
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "www...w.rr": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wXw....wru": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "....X...ul": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "r",
+            "ok": 2
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "www...Xwru": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "p",
+            "ok": 2
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "d",
+            "ok": 1
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wwwX.w..rd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "www...w.rd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wwww.wX.ru": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "www....Xru": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "d",
+            "ok": 2
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "w..w.w..uu": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "d",
+            "ok": 2
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wwwX...wrl": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "d",
+            "ok": 1
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "w..w.w..ur": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "p",
+            "ok": 3
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 5,
+            "name": "r",
+            "ok": 4
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "wwwX...wrr": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "p",
+            "ok": 2
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "w..w.w..ul": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "d",
+            "ok": 1
+        },
+        "u": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "wwwX...wru": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "..w..ww.ud": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "www...X.rd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "...Xw...ud": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "...Xw...ur": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "..w..ww.uu": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "...Xw...ul": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "a",
+            "ok": 2
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "d",
+            "ok": 2
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "www....wrl": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 2,
+            "tried": 3,
+            "name": "r",
+            "ok": 2
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "l",
+            "ok": 3
+        }
+    },
+    "w..wXw..ur": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "....w...ud": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "a",
+            "ok": 3
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "r",
+            "ok": 3
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "d",
+            "ok": 1
+        },
+        "u": {
+            "got_closer_to_the_target": 2,
+            "tried": 3,
+            "name": "u",
+            "ok": 2
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "l",
+            "ok": 2
+        }
+    },
+    "....w.X.ud": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "www....wrd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "a",
+            "ok": 2
+        },
+        "r": {
+            "got_closer_to_the_target": 2,
+            "tried": 3,
+            "name": "r",
+            "ok": 2
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "d",
+            "ok": 3
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "l",
+            "ok": 2
+        }
+    },
+    "....w...ul": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "a",
+            "ok": 2
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "r",
+            "ok": 0
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "d",
+            "ok": 3
+        },
+        "u": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "u",
+            "ok": 1
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    },
+    "....w...ur": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "a",
+            "ok": 3
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 9,
+            "name": "r",
+            "ok": 8
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "d",
+            "ok": 2
+        },
+        "u": {
+            "got_closer_to_the_target": 6,
+            "tried": 7,
+            "name": "u",
+            "ok": 6
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 4,
+            "name": "l",
+            "ok": 3
+        }
+    },
+    "....w...uu": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "p",
+            "ok": 1
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 0,
+            "tried": 5,
+            "name": "r",
+            "ok": 4
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 3,
+            "tried": 4,
+            "name": "u",
+            "ok": 3
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "wwww.w..rd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 5,
+            "name": "p",
+            "ok": 4
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "a",
+            "ok": 1
+        },
+        "r": {
+            "got_closer_to_the_target": 2,
+            "tried": 3,
+            "name": "r",
+            "ok": 2
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "d",
+            "ok": 2
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 3,
+            "name": "u",
+            "ok": 2
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 2,
+            "name": "l",
+            "ok": 1
+        }
+    },
+    "wwwX...wrd": {
+        "p": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "p",
+            "ok": 0
+        },
+        "a": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "a",
+            "ok": 0
+        },
+        "r": {
+            "got_closer_to_the_target": 1,
+            "tried": 2,
+            "name": "r",
+            "ok": 1
+        },
+        "d": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "d",
+            "ok": 0
+        },
+        "u": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "u",
+            "ok": 0
+        },
+        "l": {
+            "got_closer_to_the_target": 0,
+            "tried": 1,
+            "name": "l",
+            "ok": 0
+        }
+    }
+}
