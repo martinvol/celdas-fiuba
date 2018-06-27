@@ -140,8 +140,8 @@ public class Agent extends AbstractPlayer{
 	    
 	    System.out.println("Current perception: " + currentStatus);
 	    
-	    Boolean training = !((times_played%2) == 0);
-	    //Boolean training = false;
+	    //Boolean training = !((times_played%2) == 0);
+	    Boolean training = false;
 	    
 	    
 	    if (current_rule == null) {
