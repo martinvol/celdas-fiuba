@@ -37,7 +37,7 @@ public class Action {
 			will_get_closer = 1000;
 		} 
 		
-		return survive_rate + (10*closerIndex) + (1*will_get_closer) - (dies*10000) + (number_of_enemies_index*100);
+		return (10*survive_rate) + (closerIndex) + (1000*will_get_closer) - (dies*100000) + (number_of_enemies_index*100);
 	}
 	
 	public JSONObject getJsonRpr(){

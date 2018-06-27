@@ -44,11 +44,12 @@ public class TestCeldas
         //ArcadeMachine.playOneGame(game, level1, recordActionsFile, seed);
         
         // 2. This plays a game in a level by the controller.
-        for(int i=0; i<1000; i++) {
+        for(int i=0; i<100; i++) {
         	ArcadeMachine.runOneGame(game, level1, visuals, celdasAgent, recordActionsFile, seed, 0);
         	RuleDumper.saveRules(Rule.index);
         	//System.exit(0);
         }
+        
         // 3. This replays a game from an action file previously recorded
         //String readActionsFile = recordActionsFile;
         //ArcadeMachine.replayGame(game, level1, visuals, readActionsFile);

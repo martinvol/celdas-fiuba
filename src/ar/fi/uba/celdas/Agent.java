@@ -149,7 +149,6 @@ public class Agent extends AbstractPlayer{
 	    	this.amountBugsBefore = this.amountBugs;
 	    } else {
 	    	action_used.ok += 1;
-	    	System.out.println("last rule ok: " + action_used.ok);
 	    	if (lastTimePerception.equals(currentStatus)) {
 	    		System.out.println("Action is repeating");
 	    		action_used.is_repeating +=1;
